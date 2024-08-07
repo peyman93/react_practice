@@ -1,8 +1,11 @@
+import TailwindFlex from "./beta-components/TailwindFlex";
 
+const App = () => {
+  return (
+    <div>
+      <TailwindFlex />
+    </div>
+  );
+};
 
-function App() {
-
-}
-
-
-export default App
+export default App;
