@@ -1,0 +1,14 @@
+// Tailwind Sorting PLugin
+
+For sorting tailwind class names
+1. npm install -D prettier prettier-plugin-tailwind (better to search in official website)
+2. Create ".prettierrc" file i root project and write the installed plugin name in step 1
+
+
+
+// Tailwind merge
+1. npm install -D tailwind-merge
+2. Import the { twMerge } from the library and pass it as a function to className attribute
+
+
+

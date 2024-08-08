@@ -1,9 +1,10 @@
-import TailwindFlex from "./beta-components/TailwindFlex";
+import { twMerge } from "tailwind-merge";
+import TailwindMerge from "./beta-components/TailwindMerge";
 
 const App = () => {
   return (
-    <div>
-      <TailwindFlex />
+    <div className={twMerge("flex items-center justify-center")}>
+      <TailwindMerge color="bg-red-400" />
     </div>
   );
 };
