@@ -1,12 +1,7 @@
-import { twMerge } from "tailwind-merge";
-import TailwindMerge from "./beta-components/TailwindMerge";
+import TailwindNike from "./tailwind-nike/TailwindNike";
 
 const App = () => {
-  return (
-    <div className={twMerge("flex items-center justify-center")}>
-      <TailwindMerge color="bg-red-400" />
-    </div>
-  );
+  return <TailwindNike />;
 };
 
 export default App;
